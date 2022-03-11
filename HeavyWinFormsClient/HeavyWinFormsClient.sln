@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeavyWinFormsClient", "HeavyWinFormsClient\HeavyWinFormsClient.csproj", "{BDDBBB25-B7EE-461A-842C-95A0D0F7B0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDBBB25-B7EE-461A-842C-95A0D0F7B0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDBBB25-B7EE-461A-842C-95A0D0F7B0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDBBB25-B7EE-461A-842C-95A0D0F7B0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDBBB25-B7EE-461A-842C-95A0D0F7B0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8604E668-988C-4D3C-B600-1324516ACB5F}
+	EndGlobalSection
+EndGlobal

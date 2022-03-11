@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bf44df68-fe49-4104-8616-c7d6e95b406f": {
+      "ProjectGuid": "bf44df68-fe49-4104-8616-c7d6e95b406f",
+      "DisplayName": "WebProxyService",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

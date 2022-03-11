@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bddbbb25-b7ee-461a-842c-95a0d0f7b0fb": {
+      "ProjectGuid": "bddbbb25-b7ee-461a-842c-95a0d0f7b0fb",
+      "DisplayName": "HeavyWinFormsClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

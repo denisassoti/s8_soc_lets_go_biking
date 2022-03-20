@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  routingApiUrl: 'http://localhost:8733/Design_Time_Addresses/RoutingWithBikesHost/RoutingService/rest'
 };
 
 /*

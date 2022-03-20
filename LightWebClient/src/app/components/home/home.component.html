@@ -6,27 +6,54 @@
   </div>
   <br>
   <div class="row">
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
       <div class="card" >
         <div class="card-body">
 
           <h5 class="card-title">RECHERCHEZ VOTRE ITINERAIRE</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Renseignez le point de départ , le point d'arrivée et la ville où vous vous trouvez</h6>
-          <form>
-            <div class="form-group">
-              <label for="ville">Ville</label>
-              <input type="text" class="form-control" id="ville" placeholder="Ville">
+          <!-- <h6 class="card-subtitle mb-2 text-muted">Renseignez le l'adresse de départ , l'adresse d'arrivée</h6> -->
+          <form (ngSubmit)="handleSearch()"   [formGroup]="formGroup" >
+
+            <div>
+              <mat-label>Adresse de départ</mat-label> <br>
+              <input matInput type="text" formControlName="depart" [matAutocomplete]="auto1" [style.width.px]=380 required />
+              <mat-autocomplete #auto1="matAutocomplete">
+                <mat-option *ngFor="let option of depart_address_name_list" [value]="option">
+                  {{option}}
+                </mat-option>
+              </mat-autocomplete> <br>
             </div>
-            <div class="form-group">
-              <label for="depart">Point de départ</label>
-              <input type="text" class="form-control" id="depart" placeholder="Point de départ">
+            <div>
+              <mat-label>Adresse de d'arrivée</mat-label> <br>
+              <input matInput type="text" formControlName="arrivee" [matAutocomplete]="auto2" [style.width.px]=380 required />
+              <mat-autocomplete #auto2="matAutocomplete">
+                <mat-option *ngFor="let option of arrivee_address_name_list" [value]="option">
+                  {{option}}
+                </mat-option>
+              </mat-autocomplete> <br>
             </div>
+            <button mat-flat-button [style.margin-top.px]=5 [disabled]="!formGroup.valid" color="primary">Rechercher</button>
+
+            <!-- <datalist id="depart_address_list">
+              <option *ngFor="let address1 of depart_address_name_list" [value]="address1">{{address1}}</option>
+            </datalist>
             <div class="form-group">
-              <label for="arrivee">Point d'arrivée</label>
-              <input type="text" class="form-control" id="arrivee" placeholder="Point d'arrivée" >
-            </div> <br>
-            <button type="submit" class="btn btn-primary">Rechercher</button>
+              <label for="adresse_depart">Adresse de départ</label>
+              <input type="text" class="form-control ng-untouched ng-pristine ng-invalid"
+                    list="depart_address_list" [(ngModel)]="adresse_depart" (change)="retrieveDepartAddresses($event)" required>
+                    {{adresse_depart}}
+            </div>
+            <datalist id="arrivee_address_list">
+              <option *ngFor="let address2 of arrivee_address_name_list" [(ngModel)]="adresse_arrivee" [value]="address2">{{address2}}</option>
+            </datalist>
+            <div class="form-group">
+              <label for="adresse_arrivee">Adresse d'arrivée</label>
+              <input type="text" class="form-control ng-untouched ng-pristine ng-invalid"
+                    list="arrivee_address_list" [(ngModel)]="adresse_arrivee" (change)="retrieveArriveeAddresses($event)" required>
+                    {{adresse_arrivee}}
+            </div> <br> -->
+            <!-- <button type="submit" [disabled]="!SearchForm.form.valid" class="btn btn-primary">Rechercher</button> -->
           </form>
         </div>
       </div>

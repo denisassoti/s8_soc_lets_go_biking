@@ -5,8 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ItiniraireComponent } from './components/itiniraire/itiniraire.component';
+import { GeoApiGouvAddressModule } from '@placeme/ngx-geo-api-gouv-address';
+import {HttpClientModule} from '@angular/common/http';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -18,6 +26,14 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatAutocompleteModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    GeoApiGouvAddressModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,28 @@
-<p>itiniraire works!</p>
+<!-- <header>
+
+</header> -->
+<main>
+  <div class="left-bar">
+    <h5 class="left-bar-title">Liste du parcours</h5>
+    <hr>
+    <div class="title">
+      <div style="display: flex;flex-direction: row;" >
+        <i style="margin-top:10px;margin-left: 5px;" class="fa-solid fa-d"></i>
+        <input class="form-control" [value]="depart" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
+      </div>
+      <hr style="margin-right: 40px; margin-left:45px"/>
+      <div style="display: flex;flex-direction: row;">
+        <i style="margin-top:10px;margin-left: 5px;" class="fa-solid fa-a"></i><input class="form-control" [value]="arrivee" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
+      </div>
+    </div>
+    <hr>
+  </div>
+    <div class="map" leaflet (leafletMapReady)="onMapReady($event)" [leafletOptions]="options"
+      [leafletLayersControl]="layersControl"></div>
+</main>
+<!-- <footer>
+  Footer
+</footer> -->
+
+
+

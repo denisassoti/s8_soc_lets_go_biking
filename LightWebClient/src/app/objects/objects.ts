@@ -2,7 +2,7 @@
 import { LatLngExpression } from 'leaflet';
 
     export interface Geometry {
-      coordinates: LatLngExpression[];
+      coordinates: number[][];
         type: string;
     }
 
@@ -62,7 +62,7 @@ import { LatLngExpression } from 'leaflet';
     export interface GetItineraireResult {
         bbox: number[];
         features: Feature[];
-        metadata: Metadata;
+        // metadata: Metadata;
         type: string;
     }
 

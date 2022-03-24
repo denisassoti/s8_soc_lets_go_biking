@@ -14,7 +14,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
-import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+
 
 
 @NgModule({
@@ -34,7 +34,6 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
     MatAutocompleteModule,
     MatFormFieldModule,
     MatButtonModule,
-    LeafletModule,
     GeoApiGouvAddressModule.forRoot()
   ],
   providers: [],

@@ -1,0 +1,7 @@
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\RoutingWithBikesHost.dll.config
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\RoutingWithBikesHost.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\RoutingWithBikesHost.pdb
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\obj\Debug\RoutingWithBikesHost.csproj.AssemblyReference.cache
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\obj\Debug\RoutingWithBikesHost.csproj.CoreCompileInputs.cache
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\obj\Debug\RoutingWithBikesHost.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\obj\Debug\RoutingWithBikesHost.pdb

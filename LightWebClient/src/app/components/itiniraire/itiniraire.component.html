@@ -1,0 +1,34 @@
+<main>
+  <div class="left-bar">
+    <h5 class="left-bar-title">Liste du parcours</h5>
+    <hr>
+    <div class="title">
+      <div style="display: flex;flex-direction: row;" >
+        <i style="margin-top:10px;margin-left: 5px;" class="fa-solid fa-d"></i>
+        <input class="form-control" [value]="depart" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
+      </div>
+      <hr style="margin-right: 40px; margin-left:45px"/>
+      <div style="display: flex;flex-direction: row;">
+        <i style="margin-top:10px;margin-left: 5px;" class="fa-solid fa-a"></i><input class="form-control" [value]="arrivee" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
+      </div>
+    </div>
+    <hr>
+    <div *ngIf="steps!=null" class="scroller">
+      <div class="center"><i class="fa-solid fa-person-biking"></i> <i class="fa-solid fa-person-walking"></i></div>
+      <div *ngFor="let step of steps;let i=index" class="center">
+        <hr>
+        <i style="padding-right: 2px;" *ngIf="step.instruction.includes('left')" class="fa-solid fa-arrow-left"></i>
+        <i style="padding-right: 2px;" *ngIf="step.instruction.includes('right')" class="fa-solid fa-arrow-right"></i>
+        <i style="padding-right: 2px;" *ngIf="step.instruction.includes('Continue')" class="fa-solid fa-arrow-up-long"></i>
+        <span>{{step.instruction}}</span><br>
+        <strong *ngIf='step.name!="-"'>{{step.name}} <br></strong>
+        <span>{{step.duration}}s - {{step.distance}}m</span>
+        <hr/>
+      </div>
+    </div>
+  </div>
+  <div id="map" class="map"></div>
+</main>
+
+
+

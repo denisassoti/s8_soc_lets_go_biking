@@ -1,6 +1,6 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { RootObject, Step } from '../../objects/objects';
+import { RootObject, Step, OpenRouteService } from '../../objects/objects';
 import * as L from 'leaflet';
 import * as geojson from 'geojson';
 
@@ -14,7 +14,17 @@ export class ItiniraireComponent implements AfterViewInit {
   depart: string = '';
   arrivee: string = '';
   rootObject: RootObject | undefined;
-  steps: Step[] | undefined;
+  
+  depart_stationDepart: OpenRouteService | undefined;
+  stationDepart_stationArrivee: OpenRouteService | undefined;
+  stationArrivee_arrivee: OpenRouteService | undefined;
+
+  stationDepart_name: string | undefined;
+  stationArrivee_name: string | undefined;
+
+  d_sd_steps: Step[] | undefined; //steps between depart and station depart
+  sd_sa_steps: Step[] | undefined; // steps between station depart and station arrivee
+  sa_a_steps: Step[] | undefined; // steps between station arrivee and arrivee
 
   map: any;
 
@@ -60,7 +70,25 @@ export class ItiniraireComponent implements AfterViewInit {
     L.control.layers(baseLayers, overlays).addTo(this.map);
      // Add custom icon
     var icon = L.icon({
-      iconUrl: 'leaflet/marker-icon.png',
+      iconUrl: 'leaflet/marker.webp',
+      shadowUrl: 'leaflet/marker-shadow.png',
+      iconSize: [38, 95],
+      shadowSize: [50, 64],
+      iconAnchor: [22, 94],
+      shadowAnchor: [4, 62],
+    });
+
+    var red_icon = L.icon({
+      iconUrl: 'leaflet/red-marker.png',
+      shadowUrl: 'leaflet/marker-shadow.png',
+      iconSize: [38, 95],
+      shadowSize: [50, 64],
+      iconAnchor: [22, 94],
+      shadowAnchor: [4, 62],
+    });
+
+    var bike_icon = L.icon({
+      iconUrl: 'leaflet/bike-marker2.png',
       shadowUrl: 'leaflet/marker-shadow.png',
       iconSize: [38, 95],
       shadowSize: [50, 64],
@@ -69,53 +97,110 @@ export class ItiniraireComponent implements AfterViewInit {
     });
 
     if (this.rootObject != undefined) {
-      //console.log(this.rootObject.GetItineraireResult);
-      this.steps = this.rootObject.GetItineraireResult.features[0].properties.segments[0].steps;
-      console.log(this.steps);
-      //innerHTML = this.steps[0].instruction;
 
+      this.depart_stationDepart = this.rootObject.GetItineraireResult.depart_stationDepart;
+      this.stationDepart_stationArrivee = this.rootObject.GetItineraireResult.stationDepart_stationArrivee;
+      this.stationArrivee_arrivee = this.rootObject.GetItineraireResult.stationArrivee_arrivee;
 
-      var geojson_data: geojson.FeatureCollection = JSON.parse(JSON.stringify(this.rootObject.GetItineraireResult));
+      this.d_sd_steps = this.depart_stationDepart.features[0].properties.segments[0].steps;
+      this.sd_sa_steps = this.stationDepart_stationArrivee.features[0].properties.segments[0].steps;
+      this.sa_a_steps = this.stationArrivee_arrivee.features[0].properties.segments[0].steps;
 
-      var geojson = L.geoJSON(geojson_data, {
+      this.stationDepart_name = this.rootObject.GetItineraireResult.stationDepart;
+      this.stationArrivee_name = this.rootObject.GetItineraireResult.stationArrivee;
+
+      // depart => station depart 
+      var d_sd_geojson_data: geojson.FeatureCollection = JSON.parse(JSON.stringify(this.depart_stationDepart));
+
+      var d_sd_geojson = L.geoJSON(d_sd_geojson_data, {
         pointToLayer: function (feature, latlng) {
           return L.marker(latlng, { icon: icon });
         }
       });
 
-      geojson.addTo(this.map);
-
-      var coordinates = this.rootObject.GetItineraireResult.features[0].geometry.coordinates;
-      //marker debut
-      var geojsonPoint: geojson.Point = {
+      d_sd_geojson.addTo(this.map);
+      var d_sd_coordinates = this.depart_stationDepart.features[0].geometry.coordinates;
+      var d_sd_geojsonPoint1: geojson.Point = {
         type: "Point",
-        coordinates: coordinates[0],
+        coordinates: d_sd_coordinates[0],
       };
-      var marker = L.geoJSON(geojsonPoint, {
+
+      var marker1 = L.geoJSON(d_sd_geojsonPoint1, {
         pointToLayer: (point,latlon)=> {
           return L.marker(latlon, {icon: icon})
       }
       });
-      //Add popup message
-      marker.bindPopup(this.depart);
-      marker.addTo(this.map);
+      marker1.bindPopup("Départ : "+this.depart);
+      marker1.addTo(this.map);
 
-      //marker fin
-      var geojsonPoint2: geojson.Point = {
+      var d_sd_geojsonPoint2: geojson.Point = {
         type: "Point",
-        coordinates: coordinates[coordinates.length - 1],
+        coordinates: d_sd_coordinates[d_sd_coordinates.length - 1],
       };
-      var marker2 = L.geoJSON(geojsonPoint2, {
+      var marker2 = L.geoJSON(d_sd_geojsonPoint2, {
         pointToLayer: (point,latlon)=> {
-          return L.marker(latlon, {icon: icon})
+          return L.marker(latlon, {icon: bike_icon})
       }
       });
-      //Add popup message
-      marker2.bindPopup(this.arrivee);
+      marker2.bindPopup("Station de départ : "+this.stationDepart_name);
       marker2.addTo(this.map);
 
-      var markerBounds = L.latLngBounds(L.latLng(coordinates[0][1], coordinates[0][0]), L.latLng(coordinates[coordinates.length - 1][1], coordinates[coordinates.length - 1][0])); // premier et derier point de la ligne
-      this.map.fitBounds(markerBounds, { padding: [0, 0], maxZoom: 20 });
+
+      // station depart => station arrivee
+      var sd_sa_geojson_data: geojson.FeatureCollection = JSON.parse(JSON.stringify(this.stationDepart_stationArrivee));
+
+      var sd_sa_geojson = L.geoJSON(sd_sa_geojson_data, {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, { icon: icon });
+        },
+        style: function (feature) {
+          return { color: 'red' };
+        }
+      });
+
+      sd_sa_geojson.addTo(this.map);
+
+      var sd_sa_coordinates = this.stationDepart_stationArrivee.features[0].geometry.coordinates;
+     
+      var sd_sa_geojsonPoint2: geojson.Point = {
+        type: "Point",
+        coordinates: sd_sa_coordinates[sd_sa_coordinates.length - 1],
+      };
+      var marker3 = L.geoJSON(sd_sa_geojsonPoint2, {
+        pointToLayer: (point,latlon)=> {
+          return L.marker(latlon, {icon: bike_icon})
+        }
+      });
+      marker3.bindPopup("Station d'arrivée : "+this.stationArrivee_name);
+      marker3.addTo(this.map);
+      
+      // station arrivee => arrivee
+       var sa_a_geojson_data: geojson.FeatureCollection = JSON.parse(JSON.stringify(this.stationArrivee_arrivee));
+
+      var sa_a_geojson = L.geoJSON(sa_a_geojson_data, {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, { icon: icon });
+        }
+      });
+
+      sa_a_geojson.addTo(this.map);
+
+      var sa_a_coordinates = this.stationArrivee_arrivee.features[0].geometry.coordinates;
+      var sa_a_geojsonPoint1: geojson.Point = {
+        type: "Point",
+        coordinates: sa_a_coordinates[sa_a_coordinates.length - 1],
+      };
+      var marker4 = L.geoJSON(sa_a_geojsonPoint1, {
+        pointToLayer: (point,latlon)=> {
+          return L.marker(latlon, {icon: red_icon})
+        }
+      });
+      marker4.bindPopup("Arrivée : "+this.arrivee);
+      marker4.addTo(this.map);
+
+  
+      var markerBounds = L.latLngBounds(L.latLng(d_sd_coordinates[0][1], d_sd_coordinates[0][0]), L.latLng(sd_sa_coordinates[sd_sa_coordinates.length - 1][1], sd_sa_coordinates[sd_sa_coordinates.length - 1][0])); // premier et derier point de la ligne
+      this.map.fitBounds(markerBounds, { padding: [0, 0], maxZoom: 15 });
 
     }
   }
@@ -133,7 +218,6 @@ export class ItiniraireComponent implements AfterViewInit {
       console.log(this.rootObject);
 
     });
-
     this.initializeMap();
   }
 }

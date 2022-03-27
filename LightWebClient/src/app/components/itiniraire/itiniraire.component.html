@@ -13,18 +13,49 @@
       </div>
     </div>
     <hr>
-    <div *ngIf="steps!=null" class="scroller">
-      <div class="center"><i class="fa-solid fa-person-biking"></i> <i class="fa-solid fa-person-walking"></i></div>
-      <div *ngFor="let step of steps;let i=index" class="center">
-        <hr>
-        <i style="padding-right: 2px;" *ngIf="step.instruction.includes('left')" class="fa-solid fa-arrow-left"></i>
-        <i style="padding-right: 2px;" *ngIf="step.instruction.includes('right')" class="fa-solid fa-arrow-right"></i>
-        <i style="padding-right: 2px;" *ngIf="step.instruction.includes('Continue')" class="fa-solid fa-arrow-up-long"></i>
-        <span>{{step.instruction}}</span><br>
-        <strong *ngIf='step.name!="-"'>{{step.name}} <br></strong>
-        <span>{{step.duration}}s - {{step.distance}}m</span>
-        <hr/>
-      </div>
+    <div *ngIf="d_sd_steps!=null" >
+      <div class="center">Départ <i class="fa-solid fa-person-walking" style="color: blue"></i> Station de départ</div>
+     <div class="scroller">
+        <div *ngFor="let step of d_sd_steps;let i=index" class="center">
+          <hr>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('left')" class="fa-solid fa-arrow-left"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('right')" class="fa-solid fa-arrow-right"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('Continue')" class="fa-solid fa-arrow-up-long"></i>
+          <span>{{step.instruction}}</span><br> 
+          <strong *ngIf='step.name!="-"'>{{step.name}} <br></strong>
+          <span>{{step.duration}}s - {{step.distance}}m</span>
+        </div>
+     </div>
+    </div>
+    <hr>
+    <div *ngIf="sd_sa_steps!=null" >
+      <div class="center">Station de départ <i class="fa-solid fa-person-biking" style="color: red"></i> Station d'arrivée</div>
+     <div class="scroller">
+        <div *ngFor="let step of d_sd_steps;let i=index" class="center">
+          <hr>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('left')" class="fa-solid fa-arrow-left"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('right')" class="fa-solid fa-arrow-right"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('Continue')" class="fa-solid fa-arrow-up-long"></i>
+          <span>{{step.instruction}}</span><br>
+          <strong *ngIf='step.name!="-"'>{{step.name}} <br></strong>
+          <span>{{step.duration}}s - {{step.distance}}m</span>
+        </div>
+     </div>
+    </div>
+    <hr>
+    <div *ngIf="sa_a_steps!=null">
+      <div class="center">Station d'arrivée <i class="fa-solid fa-person-walking" style="color: blue"></i> Arrivée</div>
+     <div class="scroller">
+        <div *ngFor="let step of d_sd_steps;let i=index" class="center">
+          <hr>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('left')" class="fa-solid fa-arrow-left"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('right')" class="fa-solid fa-arrow-right"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('Continue')" class="fa-solid fa-arrow-up-long"></i>
+          <span>{{step.instruction}}</span><br>
+          <strong *ngIf='step.name!="-"'>{{step.name}} <br></strong>
+          <span>{{step.duration}}s - {{step.distance}}m</span>
+        </div>
+     </div>
     </div>
   </div>
   <div id="map" class="map"></div>

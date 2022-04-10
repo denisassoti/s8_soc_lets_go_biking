@@ -1,0 +1,8 @@
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 404 (Not Found).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__6.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 34
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__7.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 61

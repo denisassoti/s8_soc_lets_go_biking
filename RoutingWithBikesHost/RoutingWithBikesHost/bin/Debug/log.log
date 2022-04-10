@@ -1,0 +1,40 @@
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 404 (Not Found).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__6.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 34
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__7.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 61
+System.IO.IOException: Le processus ne peut pas accéder au fichier 'D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\log3.log', car il est en cours d'utilisation par un autre processus.
+   à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   à System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   à System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   à System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   à System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   à System.IO.StreamWriter..ctor(String path, Boolean append)
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 251
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   à RoutingWithBikesHost.RoutingService.<GetStartStationWithDisponibleBikes>d__11.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 135
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 65
+System.ArgumentOutOfRangeException: L'index était hors limites. Il ne doit pas être négatif et doit être inférieur à la taille de la collection.
+Nom du paramètre : index
+   à System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   à System.Collections.Generic.List`1.get_Item(Int32 index)
+   à RoutingWithBikesHost.RoutingService.<ConvertAddressToCoordinates>d__9.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 121
+--- Fin de la trace de la pile à partir de l'emplacement précédent au niveau duquel l'exception a été levée ---
+   à System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   à System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   à System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__7.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 61
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__9.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 140
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__9.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 140

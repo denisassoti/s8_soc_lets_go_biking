@@ -10,6 +10,8 @@ import { environment } from '../../../environments/environment';
 import axios from 'axios';
 import {Router} from "@angular/router"
 
+import { RootObject} from '../../objects/objects';
+
 
 @Component({
   selector: 'app-home',
@@ -24,6 +26,7 @@ export class HomeComponent implements OnInit {
 
   depart_address_name_list: string[] = [];
   arrivee_address_name_list: string[] = [];
+  rootObject: RootObject | undefined;
 
   formGroup: FormGroup = new FormGroup({});
   constructor(private geoApiGouvAddressService: GeoApiGouvAddressService, private fb: FormBuilder, private router: Router) { }
@@ -51,22 +54,30 @@ export class HomeComponent implements OnInit {
     }
 
   handleSearch() {
-    console.log("D"+this.adresse_depart);
-    console.log("A"+this.adresse_arrivee);
+   // console.log("D"+this.adresse_depart);
+   // console.log("A"+this.adresse_arrivee);
 
     //fetch GET request itineraire?depart={depart}&arrivee={arrivee} with axios
     axios.get(this.routingApiUrl + '/itineraire?depart=' + this.adresse_depart + '&arrivee=' + this.adresse_arrivee)
       .then((response : any) => {
         //console.log(response.data);
-        //redirect to /itinraire with json body
-        this.router.navigate(['/itineraire'],
-        {
-          queryParams: {
-            param: JSON.stringify(response.data),
-            depart: this.adresse_depart,
-            arrivee: this.adresse_arrivee
-          }
-        });
+        //verify if response is null
+        this.rootObject = JSON.parse(JSON.stringify(response.data));
+        //console.log(this.rootObject);
+        if (this.rootObject?.GetItineraireResult == null) {
+          alert("Aucun itinéraire n'a été trouvé. \n Assurez-vous que les adresses renseignées se trouvent dans des villes disposants de vélos JcDecaux");
+        }
+        else {
+          //redirect to /itinraire with json body
+          this.router.navigate(['/itineraire'],
+          {
+            queryParams: {
+              param: JSON.stringify(response.data),
+              depart: this.adresse_depart,
+              arrivee: this.adresse_arrivee
+            }
+          });
+        }
       });
 
 

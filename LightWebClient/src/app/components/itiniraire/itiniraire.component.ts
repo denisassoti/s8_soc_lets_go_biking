@@ -14,7 +14,7 @@ export class ItiniraireComponent implements AfterViewInit {
   depart: string = '';
   arrivee: string = '';
   rootObject: RootObject | undefined;
-  
+
   depart_stationDepart: OpenRouteService | undefined;
   stationDepart_stationArrivee: OpenRouteService | undefined;
   stationArrivee_arrivee: OpenRouteService | undefined;
@@ -109,7 +109,7 @@ export class ItiniraireComponent implements AfterViewInit {
       this.stationDepart_name = this.rootObject.GetItineraireResult.stationDepart;
       this.stationArrivee_name = this.rootObject.GetItineraireResult.stationArrivee;
 
-      // depart => station depart 
+      // depart => station depart
       var d_sd_geojson_data: geojson.FeatureCollection = JSON.parse(JSON.stringify(this.depart_stationDepart));
 
       var d_sd_geojson = L.geoJSON(d_sd_geojson_data, {
@@ -161,7 +161,7 @@ export class ItiniraireComponent implements AfterViewInit {
       sd_sa_geojson.addTo(this.map);
 
       var sd_sa_coordinates = this.stationDepart_stationArrivee.features[0].geometry.coordinates;
-     
+
       var sd_sa_geojsonPoint2: geojson.Point = {
         type: "Point",
         coordinates: sd_sa_coordinates[sd_sa_coordinates.length - 1],
@@ -173,7 +173,7 @@ export class ItiniraireComponent implements AfterViewInit {
       });
       marker3.bindPopup("Station d'arrivée : "+this.stationArrivee_name);
       marker3.addTo(this.map);
-      
+
       // station arrivee => arrivee
        var sa_a_geojson_data: geojson.FeatureCollection = JSON.parse(JSON.stringify(this.stationArrivee_arrivee));
 
@@ -198,9 +198,9 @@ export class ItiniraireComponent implements AfterViewInit {
       marker4.bindPopup("Arrivée : "+this.arrivee);
       marker4.addTo(this.map);
 
-  
+
       var markerBounds = L.latLngBounds(L.latLng(d_sd_coordinates[0][1], d_sd_coordinates[0][0]), L.latLng(sd_sa_coordinates[sd_sa_coordinates.length - 1][1], sd_sa_coordinates[sd_sa_coordinates.length - 1][0])); // premier et derier point de la ligne
-      this.map.fitBounds(markerBounds, { padding: [0, 0], maxZoom: 15 });
+      this.map.fitBounds(markerBounds, { padding: [0, 0], maxZoom: 30, zoom: 15 });
 
     }
   }

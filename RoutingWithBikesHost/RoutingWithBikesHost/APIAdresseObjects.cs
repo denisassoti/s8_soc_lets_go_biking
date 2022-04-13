@@ -59,6 +59,7 @@ namespace RoutingWithBikesHost
         public List<List<double>> locations { get; set; }
         public List<string> metrics { get; set; }
         public string units { get; set; }
+        public List<int> destinations { get; set; }
     }
 
 

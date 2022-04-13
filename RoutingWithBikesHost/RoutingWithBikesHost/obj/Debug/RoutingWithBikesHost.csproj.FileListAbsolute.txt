@@ -10,3 +10,11 @@ D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithB
 D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\RoutingWithBikesHost.exe
 D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\obj\Debug\RoutingWithBikesHost.csproj.SuggestedBindingRedirects.cache
 D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\obj\Debug\RoutingWithBikesHost.exe
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\EntityFramework.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\EntityFramework.SqlServer.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\System.Data.SQLite.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\System.Data.SQLite.EF6.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\System.Data.SQLite.Linq.dll
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\EntityFramework.xml
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\EntityFramework.SqlServer.xml
+D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\bin\Debug\System.Data.SQLite.xml

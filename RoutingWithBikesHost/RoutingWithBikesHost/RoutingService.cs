@@ -12,13 +12,12 @@ using System.Net.Http.Headers;
 
 namespace RoutingWithBikesHost
 {
-    // REMARQUE : vous pouvez utiliser la commande Renommer du menu Refactoriser pour changer le nom de classe "Service1" à la fois dans le code et le fichier de configuration.
     public class RoutingService : IRoutingService
     {
         static readonly HttpClient client = new HttpClient();
         const string URL = "https://api-adresse.data.gouv.fr";
-        //string token2 = "5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686";
-        string token = "5b3ce3597851110001cf62487cdad0be1db44f0fbb7027c16c5ef438";
+        string token = "5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686";
+       // string token = "5b3ce3597851110001cf62487cdad0be1db44f0fbb7027c16c5ef438";
         //foot-walking cycling-electric cycling-road
         string OpenServiceURL = "https://api.openrouteservice.org/v2";
 
@@ -28,15 +27,20 @@ namespace RoutingWithBikesHost
 
         WebProxy.Contract[] contracts = proxy.GetCities();
 
+        static List<Statistique> statistiques = new List<Statistique>();
+
+
         private async Task<OpenRouteService> GetDirections(List<double> depart, List<double> arrivee)
         {
             //CultureInfo.InvariantCulture pour eviter que le float a un , a la place de . exp : 10.6 au lieu de 10,6
             string start = depart[0].ToString(CultureInfo.InvariantCulture) + "," + depart[1].ToString(CultureInfo.InvariantCulture);
             string end = arrivee[0].ToString(CultureInfo.InvariantCulture) + "," + arrivee[1].ToString(CultureInfo.InvariantCulture);
+            string url = OpenServiceURL + "/directions/cycling-road?api_key=" + token + "&start=" + start + "&end=" + end;
             try
             {
-
-                HttpResponseMessage response = await client.GetAsync(OpenServiceURL + "/directions/cycling-road?api_key=" + token + "&start=" + start + "&end=" + end);
+                var u = new Uri(url);
+                client.DefaultRequestHeaders.TryAddWithoutValidation("accept", "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8");
+                HttpResponseMessage response = await client.GetAsync(u);
                 response.EnsureSuccessStatusCode();
                 var responseBody = await response.Content.ReadAsStringAsync();
 
@@ -48,7 +52,7 @@ namespace RoutingWithBikesHost
                 using (StreamWriter writer = new StreamWriter("log2.log", true))
                 {
                     writer.WriteLine(ex.ToString());
-                    writer.WriteLine(OpenServiceURL + token + "&start=" + start + "&end=" + end);
+                    writer.WriteLine("url "+url);
                 }
                 return null;
             }
@@ -137,6 +141,14 @@ namespace RoutingWithBikesHost
                 WebProxy.DynamicStation station_depart = this.GetStartStationWithDisponibleBikes(depart_coords, villeDepart);
                 WebProxy.DynamicStation station_arrivee = this.GetEndStationWithDisponibleStands(arrivee_coords, villeArrivee);
 
+                //ajout de statistique
+                Statistique s1 = new Statistique(villeDepart, station_depart.name, Usage.DEPART);
+                Statistique s2 = new Statistique(villeArrivee, station_arrivee.name, Usage.ARRIVEE);
+                this.AddStatistique(s1);
+                this.AddStatistique(s2);
+                //Console.WriteLine("sta : " + statistiques.Count);
+
+
                 // OpenService position = [lng, lat]
                 List<double> sD_coords = new List<double> { station_depart.position.longitude, station_depart.position.latitude };
                 List<double> sA_coords = new List<double> { station_arrivee.position.longitude, station_arrivee.position.latitude };
@@ -157,7 +169,6 @@ namespace RoutingWithBikesHost
                 route.stationArrivee_arrivee = oprsA_A;
                 route.stationDepart = station_depart.name;
                 route.stationArrivee = station_arrivee.name;
-                //Console.WriteLine("yooooooo");
                 return route;
 
             }
@@ -182,7 +193,6 @@ namespace RoutingWithBikesHost
 
             foreach (WebProxy.Contract contract in this.contracts)
             {
-                // Console.WriteLine(contract.name);
                 villes.Add(contract.name);
             }
             return villes;
@@ -199,7 +209,6 @@ namespace RoutingWithBikesHost
 
             APIAdresse tab = JsonConvert.DeserializeObject<APIAdresse>(responseBody);
 
-            //return tab.features[0].geometry.coordinates;
             return tab;
         }
 
@@ -211,32 +220,26 @@ namespace RoutingWithBikesHost
             depart_position.longitude = depart_coords[1];
 
             WebProxy.StaticStation staticStation = null;
-            List<double> distances = new List<double>();
 
             //resuperer toutes les stations de la ville avec requete Linq
             List<WebProxy.StaticStation> ville_stations = this.stations.Where(station => station.contractName.ToLower() == ville).ToList();
 
-            foreach (WebProxy.StaticStation station in ville_stations)
-            {
-                double distance = this.GetDistanceBetween2GpsCoordinates(depart_position, station.position);
-                distances.Add(distance);
-            }
-            //Console.WriteLine(distances.Count);
+            List<double> distances = this.GetDistanceBetweenCoordinates(depart_position, ville_stations).Result;
 
             WebProxy.DynamicStation dynamicStation = null;
-             while (dynamicStation == null)
-             {
-                 int index = distances.IndexOf(distances.Min());
-                 staticStation = ville_stations[index];
-                 dynamicStation = proxy.GetOneStation(staticStation.number, staticStation.contractName);
+            while (dynamicStation == null)
+            {
+                int index = distances.IndexOf(distances.Min());
+                staticStation = ville_stations[index];
+                dynamicStation = proxy.GetOneStation(staticStation.number, staticStation.contractName);
                 Console.WriteLine(dynamicStation.name);
 
-                 if (dynamicStation.status == "OPEN" && dynamicStation.totalStands.availabilities.bikes > 0)
-                     return dynamicStation;
+                if (dynamicStation.status == "OPEN" && dynamicStation.totalStands.availabilities.bikes > 0)
+                    return dynamicStation;
 
-                 distances.RemoveAt(index);
-                 dynamicStation = null;
-             }
+                distances.RemoveAt(index);
+                dynamicStation = null;
+            }
             return null;
         }
 
@@ -248,36 +251,35 @@ namespace RoutingWithBikesHost
             arrivee_position.longitude = arrivee_coords[1];
 
             WebProxy.StaticStation staticStation = null;
-            List<double> distances = new List<double>();
-
             List<WebProxy.StaticStation> ville_stations = this.stations.Where(station => station.contractName.ToLower() == ville).ToList();
 
-            foreach (WebProxy.StaticStation station in ville_stations)
-            {
-                double distance = this.GetDistanceBetween2GpsCoordinates(arrivee_position, station.position);
-                distances.Add(distance);
-            }
+            /* List<double> distances = new List<double>();
+             foreach (WebProxy.StaticStation station in ville_stations)
+             {
+                 double distance = this.GetDistanceBetween2GpsCoordinates(arrivee_position, station.position);
+                 distances.Add(distance);
+             }*/
+            List<double> distances = this.GetDistanceBetweenCoordinates(arrivee_position, ville_stations).Result;
 
             WebProxy.DynamicStation dynamicStation = null;
-             while (dynamicStation == null)
-             {
-                 int index = distances.IndexOf(distances.Min());
-                 staticStation = ville_stations[index];
-                 dynamicStation = proxy.GetOneStation(staticStation.number, staticStation.contractName);
+            while (dynamicStation == null)
+            {
+                int index = distances.IndexOf(distances.Min());
+                staticStation = ville_stations[index];
+                dynamicStation = proxy.GetOneStation(staticStation.number, staticStation.contractName);
 
-                 if (dynamicStation.status == "OPEN" && dynamicStation.totalStands.availabilities.stands > 0)
-                     return dynamicStation;
+                if (dynamicStation.status == "OPEN" && dynamicStation.totalStands.availabilities.stands > 0)
+                    return dynamicStation;
 
-                 distances.RemoveAt(index);
-                 dynamicStation = null;
-             }
+                distances.RemoveAt(index);
+                dynamicStation = null;
+            }
             return null;
         }
 
 
-        //distance en km
-        // private double GetDistanceBetween2GpsCoordinates(WebProxy.Position p1, WebProxy.Position p2)
-        private double GetDistanceBetween2GpsCoordinates(WebProxy.Position p1, WebProxy.Position p2)
+        //distance en km a vol d'oiseau : 1ere version
+       /* private double GetDistanceBetween2GpsCoordinates(WebProxy.Position p1, WebProxy.Position p2)
         {
             var rlat1 = Math.PI * p1.longitude / 180;
             var rlat2 = Math.PI * p2.latitude / 180;
@@ -295,57 +297,78 @@ namespace RoutingWithBikesHost
             dist = dist * 1.609344;
             return dist;
         }
-
+       */
 
         //[lng, lat] foot-walking distance
-        /* private async Task<double> GetDistanceBetween2GpsCoordinates(WebProxy.Position p1, WebProxy.Position p2)
-         {
+        private async Task<List<double>> GetDistanceBetweenCoordinates(WebProxy.Position initial, List<WebProxy.StaticStation> villeSt)
+        {
 
-             string p1_lat = p1.latitude.ToString(CultureInfo.InvariantCulture);
-             string p1_lon = p1.longitude.ToString(CultureInfo.InvariantCulture);
-             string p2_lat = p2.latitude.ToString(CultureInfo.InvariantCulture);
-             string p2_lon = p2.longitude.ToString(CultureInfo.InvariantCulture); 
-
-             DistancePayload distancePayload = new DistancePayload();
-             distancePayload.units = "km";
-             distancePayload.metrics = new List<string> { "distance" };
-             distancePayload.locations = new List<List<double>> { new List<double>() { p1.latitude, p1.longitude }, new List<double> {p2.longitude, p2.latitude } };
-
-             var  payload = JsonConvert.SerializeObject(distancePayload);
+            string p1_lat = initial.latitude.ToString(CultureInfo.InvariantCulture);
+            string p1_lon = initial.longitude.ToString(CultureInfo.InvariantCulture);
 
 
-             //var payload2 = "{\"locations\":[[" + p1_lat + "," + p1_lon + "],[" + p2_lon + "," + p2_lat + "]],\"metrics\":[\"distance\"],\"units\":\"km\"}";
-             //payload = JsonConvert.DeserializeObject(payload);
-             try
-             {
+            DistancePayload distancePayload = new DistancePayload();
+            distancePayload.units = "km";
+            distancePayload.metrics = new List<string> { "distance" };
+            distancePayload.destinations = new List<int> { 0 };
+            distancePayload.locations = new List<List<double>>();
+            distancePayload.locations.Add(new List<double>() { initial.latitude, initial.longitude });
 
-                 client.DefaultRequestHeaders.Accept.Clear();
-                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token2);
+            foreach (var station in villeSt)
+            {
+                distancePayload.locations.Add(new List<double>() { station.position.longitude, station.position.latitude });
+            }
 
-                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                // client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Authorization", "xxx");
+            var payload = JsonConvert.SerializeObject(distancePayload);
+
+            //var payload2 = "{\"locations\":[[" + p1_lat + "," + p1_lon + "],[" + p2_lon + "," + p2_lat + "]],\"metrics\":[\"distance\"],\"units\":\"km\"}";
+            try
+            {
+
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = await client.PostAsync(OpenServiceURL + "/matrix/foot-walking", content);
+                response.EnsureSuccessStatusCode();
+                var responseBody = await response.Content.ReadAsStringAsync();
+
+                Distance distance = JsonConvert.DeserializeObject<Distance>(responseBody);
+                List<double> distances = new List<double>();
+                for (var i = 1; i < distance.distances.Count; i++)
+                {
+                    distances.Add(distance.distances[i][0]);
+                }
+
+                return distances;
+            }
+            catch (Exception ex)
+            {
+                using (StreamWriter writer = new StreamWriter("log10.log", true))
+                {
+                    writer.WriteLine(ex.ToString());
+                    writer.WriteLine(payload);
+                }
+                return null;
+            }
+        }
 
 
-                 HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
+        /***********************       STATISTIQUES       *******************************/
+        public List<Statistique> GetStatistiques()
+        {
+            //Console.WriteLine("statisti " + statistiques.Count);
+            return statistiques;
+        }
 
-                 HttpResponseMessage response = await client.PostAsync(OpenServiceURL + "/matrix/driving-car", content);
-                 response.EnsureSuccessStatusCode();
-                 var responseBody = await response.Content.ReadAsStringAsync();
-
-                 Distance distance = JsonConvert.DeserializeObject<Distance>(responseBody);
-                 return distance.distances[0][1];
-             }
-             catch (Exception ex)
-             {
-                 using (StreamWriter writer = new StreamWriter("log7.log", true))
-                 {
-                     writer.WriteLine(ex.ToString());
-                     writer.WriteLine(payload);
-                     //writer.WriteLine(OpenServiceURL + "/matrix/foot-walking");
-                 }
-                 return double.NaN;
-             } */
-
-        // }
+        private void AddStatistique(Statistique s)
+        {
+            //Console.WriteLine("stat id : " + s.id);
+            statistiques.Add(s);
+            //Console.WriteLine("statisti " + statistiques.Count);
+        }
     }
 }

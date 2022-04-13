@@ -38,3 +38,8 @@ System.NullReferenceException: La référence d'objet n'est pas définie à une 
    à RoutingWithBikesHost.RoutingService.<GetItineraire>d__9.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 140
 System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
    à RoutingWithBikesHost.RoutingService.<GetItineraire>d__9.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 140
+System.ArgumentNullException: La valeur ne peut pas être null.
+Nom du paramètre : source
+   à System.Linq.Enumerable.Min(IEnumerable`1 source)
+   à RoutingWithBikesHost.RoutingService.GetEndStationWithDisponibleStands(List`1 arrivee_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 278
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 142

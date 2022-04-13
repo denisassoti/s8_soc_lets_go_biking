@@ -29,6 +29,9 @@ namespace RoutingWithBikesHost
             BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "itineraire?depart={depart}&arrivee={arrivee}")]
         Task<OpenRouteServiceAPI.Itineraire> GetItineraire(string depart, string arrivee);
 
+        [OperationContract]
+        List<Statistique> GetStatistiques();
+
        /* [OperationContract]
         [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "convert_address_to_coordinates?address={address}")]

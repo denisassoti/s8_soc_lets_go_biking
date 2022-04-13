@@ -54,33 +54,33 @@ export class HomeComponent implements OnInit {
     }
 
   handleSearch() {
-   // console.log("D"+this.adresse_depart);
-   // console.log("A"+this.adresse_arrivee);
-
-    //fetch GET request itineraire?depart={depart}&arrivee={arrivee} with axios
-    axios.get(this.routingApiUrl + '/itineraire?depart=' + this.adresse_depart + '&arrivee=' + this.adresse_arrivee)
-      .then((response : any) => {
-        //console.log(response.data);
-        //verify if response is null
-        this.rootObject = JSON.parse(JSON.stringify(response.data));
-        //console.log(this.rootObject);
-        if (this.rootObject?.GetItineraireResult == null) {
-          alert("Aucun itinéraire n'a été trouvé. \n Assurez-vous que les adresses renseignées se trouvent dans des villes disposants de vélos JcDecaux");
-        }
-        else {
-          //redirect to /itinraire with json body
-          this.router.navigate(['/itineraire'],
-          {
-            queryParams: {
-              param: JSON.stringify(response.data),
-              depart: this.adresse_depart,
-              arrivee: this.adresse_arrivee
-            }
-          });
-        }
-      });
-
-
+    if (this.adresse_depart == this.adresse_arrivee) {
+      alert('Veuillez choisir deux adresses différentes');
+    }
+    else {
+      //fetch GET request itineraire?depart={depart}&arrivee={arrivee} with axios
+      axios.get(this.routingApiUrl + '/itineraire?depart=' + this.adresse_depart + '&arrivee=' + this.adresse_arrivee)
+        .then((response: any) => {
+          //console.log(response.data);
+          //verify if response is null
+          this.rootObject = JSON.parse(JSON.stringify(response.data));
+          //console.log(this.rootObject);
+          if (this.rootObject?.GetItineraireResult == null) {
+            alert("Aucun itinéraire n'a été trouvé. \n Assurez-vous que les adresses renseignées se trouvent dans des villes disposants de vélos JcDecaux");
+          }
+          else {
+            //redirect to /itinraire with json body
+            this.router.navigate(['/itineraire'],
+              {
+                queryParams: {
+                  param: JSON.stringify(response.data),
+                  depart: this.adresse_depart,
+                  arrivee: this.adresse_arrivee
+                }
+              });
+          }
+        });
+    }
   }
 
   retrieveDepartAddresses(e: any) {

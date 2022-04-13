@@ -5,6 +5,11 @@
       "ProjectGuid": "bddbbb25-b7ee-461a-842c-95a0d0f7b0fb",
       "DisplayName": "HeavyWinFormsClient",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

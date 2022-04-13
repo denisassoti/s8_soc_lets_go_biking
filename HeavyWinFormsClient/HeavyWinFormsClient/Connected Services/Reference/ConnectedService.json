@@ -1,0 +1,43 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:8733/Design_Time_Addresses/RoutingWithBikesHost/RoutingService/?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Collections.Generic.Dictionary`2",
+      "System.Collections.Generic.List`1"
+    ],
+    "namespaceMappings": [
+      "*, Reference"
+    ],
+    "references": [
+      "IronXL, {IronXL.Excel, 2022.3.0}",
+      "System.IO, {System.IO, 4.3.0}",
+      "System.Net.Http, {System.Net.Http, 4.3.4}",
+      "System.Net.Primitives, {System.Net.Primitives, 4.3.0}",
+      "System.Reflection.DispatchProxy, {System.Reflection.DispatchProxy, 4.7.1}",
+      "System.Runtime, {System.Runtime, 4.3.0}",
+      "System.Runtime.Handles, {System.Runtime.Handles, 4.3.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 4.7.0}",
+      "System.Security.Cryptography.Algorithms, {System.Security.Cryptography.Algorithms, 4.3.0}",
+      "System.Security.Cryptography.Encoding, {System.Security.Cryptography.Encoding, 4.3.0}",
+      "System.Security.Cryptography.Primitives, {System.Security.Cryptography.Primitives, 4.3.0}",
+      "System.Security.Cryptography.X509Certificates, {System.Security.Cryptography.X509Certificates, 4.3.0}",
+      "System.Security.Cryptography.Xml, {System.Security.Cryptography.Xml, 4.7.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 4.7.0}",
+      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 4.7.0}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.8.1}",
+      "System.ServiceModel.Duplex, {System.ServiceModel.Duplex, 4.8.1}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.8.1}",
+      "System.ServiceModel.NetTcp, {System.ServiceModel.NetTcp, 4.8.1}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.8.1}",
+      "System.ServiceModel.Security, {System.ServiceModel.Security, 4.8.1}",
+      "System.Text.Encoding, {System.Text.Encoding, 4.3.0}",
+      "System.Threading.Tasks, {System.Threading.Tasks, 4.3.0}",
+      "System.Windows.Extensions, {System.Windows.Extensions, 4.7.0}"
+    ],
+    "sync": true,
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

@@ -65,7 +65,7 @@ import { LatLngExpression } from 'leaflet';
         // metadata: Metadata;
         type: string;
     }
-    
+
     export interface GetItineraireResult{
       depart_stationDepart: OpenRouteService;
       stationDepart_stationArrivee: OpenRouteService;
@@ -77,3 +77,25 @@ import { LatLngExpression } from 'leaflet';
     export interface RootObject {
       GetItineraireResult: GetItineraireResult;
     }
+
+    export interface Position {
+        latitude: number;
+        longitude: number;
+    }
+
+    export interface GetStationsResult {
+        address: string;
+        contractName: string;
+        name: string;
+        number: number;
+        position: Position;
+    }
+
+    export interface Stations {
+        GetStationsResult: GetStationsResult[];
+}
+    export interface Villes {
+        GetContractsResult: string[];
+    }
+
+

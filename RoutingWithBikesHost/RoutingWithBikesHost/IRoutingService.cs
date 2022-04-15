@@ -32,6 +32,7 @@ namespace RoutingWithBikesHost
         [OperationContract]
         List<Statistique> GetStatistiques();
 
+
        /* [OperationContract]
         [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "convert_address_to_coordinates?address={address}")]

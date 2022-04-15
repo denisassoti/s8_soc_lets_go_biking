@@ -17,7 +17,7 @@ namespace RoutingWithBikesHost
         static readonly HttpClient client = new HttpClient();
         const string URL = "https://api-adresse.data.gouv.fr";
         string token = "5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686";
-       // string token = "5b3ce3597851110001cf62487cdad0be1db44f0fbb7027c16c5ef438";
+        // string token = "5b3ce3597851110001cf62487cdad0be1db44f0fbb7027c16c5ef438";
         //foot-walking cycling-electric cycling-road
         string OpenServiceURL = "https://api.openrouteservice.org/v2";
 
@@ -52,7 +52,7 @@ namespace RoutingWithBikesHost
                 using (StreamWriter writer = new StreamWriter("log2.log", true))
                 {
                     writer.WriteLine(ex.ToString());
-                    writer.WriteLine("url "+url);
+                    writer.WriteLine("url " + url);
                 }
                 return null;
             }
@@ -112,9 +112,10 @@ namespace RoutingWithBikesHost
                 int test = 0;
                 foreach (City city in checkCities_D.cities)
                 {
-                    if (jcDeceauxVilles.Contains(city.city.ToLower()))
+                    //if (jcDeceauxVilles.Contains(city.city.ToLower()))
+                    if (jcDeceauxVilles.Where(s => city.city.ToLower().IndexOf(s.ToLower()) != -1).Any())
                     {
-                        villeDepart = city.city.ToLower();
+                        villeDepart = jcDeceauxVilles.Where(s => city.city.ToLower().IndexOf(s.ToLower()) != -1).First();
                         test++;
                         break;
                     }
@@ -122,9 +123,9 @@ namespace RoutingWithBikesHost
 
                 foreach (City city in checkCities_A.cities)
                 {
-                    if (jcDeceauxVilles.Contains(city.city.ToLower()))
+                    if (jcDeceauxVilles.Where(s => city.city.ToLower().IndexOf(s.ToLower()) != -1).Any())
                     {
-                        villeArrivee = city.city.ToLower();
+                        villeArrivee = jcDeceauxVilles.Where(s => city.city.ToLower().IndexOf(s.ToLower()) != -1).First();
                         test++;
                         break;
                     }
@@ -136,11 +137,12 @@ namespace RoutingWithBikesHost
                 {
                     return null;
                 }
+                Console.WriteLine("YOOOOOO");
 
                 //trouver les stations de depart et d'arrivee
                 WebProxy.DynamicStation station_depart = this.GetStartStationWithDisponibleBikes(depart_coords, villeDepart);
                 WebProxy.DynamicStation station_arrivee = this.GetEndStationWithDisponibleStands(arrivee_coords, villeArrivee);
-
+                Console.WriteLine("BOOOOOO");
                 //ajout de statistique
                 Statistique s1 = new Statistique(villeDepart, station_depart.name, Usage.DEPART);
                 Statistique s2 = new Statistique(villeArrivee, station_arrivee.name, Usage.ARRIVEE);
@@ -218,13 +220,24 @@ namespace RoutingWithBikesHost
             WebProxy.Position depart_position = new WebProxy.Position();
             depart_position.latitude = depart_coords[0];
             depart_position.longitude = depart_coords[1];
+            Console.WriteLine("lat " + depart_position.latitude);
+            Console.WriteLine("long " + depart_position.longitude);
 
             WebProxy.StaticStation staticStation = null;
 
             //resuperer toutes les stations de la ville avec requete Linq
             List<WebProxy.StaticStation> ville_stations = this.stations.Where(station => station.contractName.ToLower() == ville).ToList();
-
+            //recuperer les 50 premier stations
+            if (ville_stations.Count > 40)
+            {
+                ville_stations = ville_stations.Take(40).ToList();
+            }
+            Console.WriteLine("ville " + ville);
+            Console.WriteLine("stations " + this.stations.Length);
+            Console.WriteLine("sta " + ville_stations.Count);
+            Console.WriteLine("hhhhhhhhhh");
             List<double> distances = this.GetDistanceBetweenCoordinates(depart_position, ville_stations).Result;
+            Console.WriteLine("distance : " + distances.Count);
 
             WebProxy.DynamicStation dynamicStation = null;
             while (dynamicStation == null)
@@ -259,7 +272,13 @@ namespace RoutingWithBikesHost
                  double distance = this.GetDistanceBetween2GpsCoordinates(arrivee_position, station.position);
                  distances.Add(distance);
              }*/
+            if (ville_stations.Count > 40)
+            {
+                ville_stations = ville_stations.Take(40).ToList();
+            }
             List<double> distances = this.GetDistanceBetweenCoordinates(arrivee_position, ville_stations).Result;
+            Console.WriteLine("distance2 : " + distances.Count);
+
 
             WebProxy.DynamicStation dynamicStation = null;
             while (dynamicStation == null)
@@ -279,25 +298,25 @@ namespace RoutingWithBikesHost
 
 
         //distance en km a vol d'oiseau : 1ere version
-       /* private double GetDistanceBetween2GpsCoordinates(WebProxy.Position p1, WebProxy.Position p2)
-        {
-            var rlat1 = Math.PI * p1.longitude / 180;
-            var rlat2 = Math.PI * p2.latitude / 180;
-            var rlon1 = Math.PI * p1.latitude / 180;
-            var rlon2 = Math.PI * p2.longitude / 180;
+        /* private double GetDistanceBetween2GpsCoordinates(WebProxy.Position p1, WebProxy.Position p2)
+         {
+             var rlat1 = Math.PI * p1.longitude / 180;
+             var rlat2 = Math.PI * p2.latitude / 180;
+             var rlon1 = Math.PI * p1.latitude / 180;
+             var rlon2 = Math.PI * p2.longitude / 180;
 
-            var theta = p1.latitude - p2.longitude;
-            var rtheta = Math.PI * theta / 180;
+             var theta = p1.latitude - p2.longitude;
+             var rtheta = Math.PI * theta / 180;
 
-            var dist = Math.Sin(rlat1) * Math.Sin(rlat2) + Math.Cos(rlat1) * Math.Cos(rlat2) * Math.Cos(rtheta);
-            dist = Math.Acos(dist);
-            dist = dist * 180 / Math.PI;
-            dist = dist * 60 * 1.1515;
+             var dist = Math.Sin(rlat1) * Math.Sin(rlat2) + Math.Cos(rlat1) * Math.Cos(rlat2) * Math.Cos(rtheta);
+             dist = Math.Acos(dist);
+             dist = dist * 180 / Math.PI;
+             dist = dist * 60 * 1.1515;
 
-            dist = dist * 1.609344;
-            return dist;
-        }
-       */
+             dist = dist * 1.609344;
+             return dist;
+         }
+        */
 
         //[lng, lat] foot-walking distance
         private async Task<List<double>> GetDistanceBetweenCoordinates(WebProxy.Position initial, List<WebProxy.StaticStation> villeSt)
@@ -337,11 +356,13 @@ namespace RoutingWithBikesHost
                 var responseBody = await response.Content.ReadAsStringAsync();
 
                 Distance distance = JsonConvert.DeserializeObject<Distance>(responseBody);
+                Console.WriteLine("ds: " + distance.distances.Count);
                 List<double> distances = new List<double>();
                 for (var i = 1; i < distance.distances.Count; i++)
                 {
                     distances.Add(distance.distances[i][0]);
                 }
+                Console.WriteLine("d: " + distances.Count);
 
                 return distances;
             }

@@ -200,7 +200,7 @@ export class ItiniraireComponent implements AfterViewInit {
 
 
       var markerBounds = L.latLngBounds(L.latLng(d_sd_coordinates[0][1], d_sd_coordinates[0][0]), L.latLng(sa_a_coordinates[sa_a_coordinates.length - 1][1], sa_a_coordinates[sa_a_coordinates.length - 1][0]));
-      this.map.fitBounds(markerBounds, { padding: [0, 0], maxZoom: 30, zoom: 15 });
+      this.map.fitBounds(markerBounds, { padding: [0, 0], maxZoom: 30, zoom: 12 });
 
     }
   }

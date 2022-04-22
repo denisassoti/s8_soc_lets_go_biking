@@ -12,7 +12,7 @@ namespace WebProxyService.ReferenceObjects
     [DataContract]
     public class Position
     {
-        [DataMember]
+        [DataMember] 
         public double latitude { get; set; }
 
         [DataMember]

@@ -14,6 +14,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
+import { StationsComponent } from './components/stations/stations.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
 
@@ -21,7 +23,8 @@ import { MatButtonModule } from '@angular/material/button';
   declarations: [
     AppComponent,
     HomeComponent,
-    ItiniraireComponent
+    ItiniraireComponent,
+    StationsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +37,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatAutocompleteModule,
     MatFormFieldModule,
     MatButtonModule,
+    MatProgressSpinnerModule,
     GeoApiGouvAddressModule.forRoot()
   ],
   providers: [],

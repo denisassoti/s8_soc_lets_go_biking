@@ -59,13 +59,44 @@ import { LatLngExpression } from 'leaflet';
         timestamp: number;
     }
 
-    export interface GetItineraireResult {
+    export interface OpenRouteService {
         bbox: number[];
         features: Feature[];
         // metadata: Metadata;
         type: string;
     }
 
-    export interface RootObject {
-        GetItineraireResult: GetItineraireResult;
+    export interface GetItineraireResult{
+      depart_stationDepart: OpenRouteService;
+      stationDepart_stationArrivee: OpenRouteService;
+      stationArrivee_arrivee: OpenRouteService;
+      depart_arrivee: OpenRouteService;
+      stationDepart: string;
+      stationArrivee: string;
     }
+
+    export interface RootObject {
+      GetItineraireResult: GetItineraireResult;
+    }
+
+    export interface Position {
+        latitude: number;
+        longitude: number;
+    }
+
+    export interface GetStationsResult {
+        address: string;
+        contractName: string;
+        name: string;
+        number: number;
+        position: Position;
+    }
+
+    export interface Stations {
+        GetStationsResult: GetStationsResult[];
+}
+    export interface Villes {
+        GetContractsResult: string[];
+    }
+
+

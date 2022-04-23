@@ -1,0 +1,804 @@
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.4032446164919818,43.250903869637334]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.4410035987262,43.6089519604964]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[14.506854,46.063797]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.815747,45.743317]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.821662,45.75197]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.278198,53.349562]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-1.533796,47.216207]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-3.78134613485541,43.4718048257527]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.3194,50.805801]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.3954071515343,39.460848056694466]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.832409,45.846034]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.265305,53.353462]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.844845,45.768896]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.067596,49.034625]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.173442,48.662356]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.02031242929915,49.0329335916808]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.38037911504075,39.4768031153802]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.83927,45.750945]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.26298,53.336021]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.4018735946946528,43.254027278130678]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.1172,49.59]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.871634,45.776239]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.802727,45.756204]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.101656,49.03223]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.45907112459247,43.5972354030358]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.276142,53.359405]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.437032051956223,43.605071904633625]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.369528093405798,39.497128187401]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.3996860624144869,43.272523670860132]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.973249,37.418586]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.814418,45.787522]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.986423,37.358414]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.44871,43.57383]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[14.529911,46.065206]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.874032,45.767467]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.079568,49.03632]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.389325,50.822207]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[14.524321,46.062475]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.41505,50.836304]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.4417832891344491,43.579737115748195]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.43749379620012,43.6338661781519]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.859664,45.78458]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.032536,47.244985]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.47488196169573,43.5665957613637]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.984551,37.38962]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[7.34141256758124,47.7459607192146]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.2925,50.827106]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.09941681180915,49.017696834806]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.17048,49.631952]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.45537843175518,48.7773524472175]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[7.348388,47.756465]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.46278065695466,43.5714330640513]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.0982663382191069,49.442505586441918]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.880491,45.769226]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.900886,45.70597]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.989222,37.381542]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.000026,37.383674]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-1.55304912932047,47.2121084631418]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.98478516852571,37.3636193796288]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.295865,49.890229]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.860029,45.779702]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.841109,45.778767]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.24153,53.33796]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[137.220853,36.693935]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.430988,50.856582]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.385786,50.831592]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.007549,47.241652]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.9100909196767,37.3861004967786]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.843452,45.79169]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.4545763584026572,48.78350102672993]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-1.54799992590737,47.2254298853335]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.97484314721458,37.3870984770164]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.397848157697943,39.458694048634278]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.4420311550308,43.5899589086431]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.27012,53.343368]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.3831057421323747,43.288920008570081]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.036546,49.044092]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.4552047953852789,43.609742827379911]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.96676313290727,37.411466577192]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[13.196025788784,55.7019107380952]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.021966,47.243569]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.3901483781149,43.3046818705083]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.348533015740284,39.469648101532371]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.4526053074006919,43.597074846780274]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.46577,50.84157]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.302607,50.861783]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.16661978303466,48.666721193896]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.854681,45.719399]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.295043974872919,49.896032388592566]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.857919,45.750251]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.45195665819857,43.6022199081578]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.309731,50.869032]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.387965,50.895592]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-1.533329,47.228614]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[14.530213,46.102446]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.343552001034738,39.4700511045018]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.897102,45.784023]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.339182,50.860862]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.265436,53.334123]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.380461,50.850333]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.92175367632774,37.4028628717453]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.982485,37.384316]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.982622,37.406927]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.40387294895004,43.5972944389558]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.858428,45.725891]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.301314220716614,49.8933588618336]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.85299,45.749622]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.887977,45.774754]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[13.1876116991043,55.7042412794077]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.357652050365347,39.483221144341215]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.390305142409828,39.4723390971218]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[137.215829,36.705842]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.250427,53.344304]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.307502,50.86002]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.335255974679776,39.4672620977876]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.817176,45.745824]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.262003,53.338755]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.38680912265075,39.4551140401216]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.002801,37.371532]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.867857,50.461576]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.312402,50.85904]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.406995,50.86702]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.44292117584534,43.6152597992241]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-0.418584242795808,39.501413186157741]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.3877796427135927,43.2886166717576]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.3877732617850036,43.301233198378043]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.083067,49.030665]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.983972,37.397595]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.152463,49.567771]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-6.244239,53.347777]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[14.51302,46.06005]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.817888,45.775425]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.347421,50.837912]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.43180804154469,43.632641237523]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[1.4383021809077541,43.6241831342527]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-1.55154060534636,47.2164797718207]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.891542,45.755768]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[2.096823,49.047619]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[5.379895702048497,43.301510278747365]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.369509,50.848712]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.810716,45.778175]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.8652,50.46424]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.384205,50.813724]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.98265615036839,37.3453173116431]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[-5.97767816602457,37.4024945374132]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[4.305962,50.834755]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 243
+{"locations":[[7.202467,43.684164],[6.176061,49.635423]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[5.4032446164919818,43.250903869637334]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.4410035987262,43.6089519604964]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[14.506854,46.063797]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.815747,45.743317]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.821662,45.75197]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-6.278198,53.349562]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-1.533796,47.216207]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-3.78134613485541,43.4718048257527]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.3194,50.805801]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-0.3954071515343,39.460848056694466]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.832409,45.846034]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-6.265305,53.353462]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.844845,45.768896]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[2.067596,49.034625]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[6.173442,48.662356]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[2.02031242929915,49.0329335916808]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-0.38037911504075,39.4768031153802]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.83927,45.750945]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-6.26298,53.336021]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[5.4018735946946528,43.254027278130678]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[6.1172,49.59]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.871634,45.776239]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.802727,45.756204]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[2.101656,49.03223]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.45907112459247,43.5972354030358]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-6.276142,53.359405]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.437032051956223,43.605071904633625]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-0.369528093405798,39.497128187401]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[5.3996860624144869,43.272523670860132]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-5.973249,37.418586]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.814418,45.787522]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-5.986423,37.358414]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.44871,43.57383]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[14.529911,46.065206]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.874032,45.767467]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[2.079568,49.03632]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.389325,50.822207]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[14.524321,46.062475]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.41505,50.836304]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.4417832891344491,43.579737115748195]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.43749379620012,43.6338661781519]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.859664,45.78458]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[6.032536,47.244985]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.47488196169573,43.5665957613637]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[-5.984551,37.38962]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[7.34141256758124,47.7459607192146]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.2925,50.827106]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[2.09941681180915,49.017696834806]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[6.17048,49.631952]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[2.45537843175518,48.7773524472175]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[7.348388,47.756465]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.46278065695466,43.5714330640513]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[1.0982663382191069,49.442505586441918]],"metrics":["distance"],"units":"km"}
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 403 (Forbidden).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDistanceBetween2GpsCoordinates>d__13.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 249
+{"locations":[[7.202467,43.684164],[4.880491,45.769226]],"metrics":["distance"],"units":"km"}

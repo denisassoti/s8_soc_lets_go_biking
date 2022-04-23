@@ -5,6 +5,11 @@
       "ProjectGuid": "0b7dc659-e9e1-4318-a2c6-0210d01c412b",
       "DisplayName": "RoutingWithBikesHost",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

@@ -1,0 +1,36 @@
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.076012,49.425698&end=1.07496,49.42611
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.07496,49.42611&end=1.08609530534956,49.4308805148515
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.08609530534956,49.4308805148515&end=1.082215,49.428154
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.082215,49.428154&end=1.08609530534956,49.4308805148515
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.08609530534956,49.4308805148515&end=1.07496,49.42611
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.07496,49.42611&end=1.076012,49.425698
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.076012,49.425698&end=1.07496,49.42611
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.07496,49.42611&end=1.08609530534956,49.4308805148515
+System.Net.Http.HttpRequestException: Le code d'état de réponse n'indique pas la réussite : 406 (Not Acceptable).
+   à System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   à RoutingWithBikesHost.RoutingService.<GetDirections>d__8.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 46
+url https://api.openrouteservice.org/v2/directions/cycling-road?api_key=5b3ce3597851110001cf6248456b77127eb844aa95851057438e4686&start=1.08609530534956,49.4308805148515&end=1.082215,49.428154

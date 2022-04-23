@@ -1,0 +1,39 @@
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 229
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 142
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 229
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 142
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 229
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 142
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 229
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 142
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 230
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 230
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 230
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 232
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 233
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 234
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 235
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetStartStationWithDisponibleBikes(List`1 depart_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 235
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 143
+System.NullReferenceException: La référence d'objet n'est pas définie à une instance d'un objet.
+   à RoutingWithBikesHost.RoutingService.GetEndStationWithDisponibleStands(List`1 arrivee_coords, String ville) dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 276
+   à RoutingWithBikesHost.RoutingService.<GetItineraire>d__10.MoveNext() dans D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\RoutingWithBikesHost\RoutingWithBikesHost\RoutingService.cs:ligne 144

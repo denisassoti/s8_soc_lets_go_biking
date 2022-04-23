@@ -5,7 +5,17 @@
       "ProjectGuid": "bf44df68-fe49-4104-8616-c7d6e95b406f",
       "DisplayName": "WebProxyService",
       "ColorIndex": 0
+    },
+    "b48abd58-e409-4563-be53-538b472fd6f1": {
+      "ProjectGuid": "b48abd58-e409-4563-be53-538b472fd6f1",
+      "DisplayName": "WebProxyServiceHost",
+      "ColorIndex": 1
+    },
+    "a71c5912-aae3-4bcc-812e-b4c67a7716e7": {
+      "ProjectGuid": "a71c5912-aae3-4bcc-812e-b4c67a7716e7",
+      "DisplayName": "WebProxyServiceHost",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

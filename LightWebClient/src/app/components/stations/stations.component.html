@@ -1,0 +1,22 @@
+<header>
+  <div *ngIf="isLoading"
+    style="display: flex; justify-content:center; align-items:center; position: absolute; top:50%; left:50%">
+    <mat-spinner></mat-spinner>
+  </div>
+  <form (ngSubmit)="handleSearch()" [formGroup]="formGroup">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- <input type="text" [(ngModel)]="ville_search" [ngModelOptions]="{standalone: true}" class="form-control"> -->
+          <select class="form-control" [(ngModel)]="ville_search" [ngModelOptions]="{standalone: true}">
+            <option *ngFor="let ville of villes.GetContractsResult" [ngValue]="ville">{{ville}}</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-primary">Rechercher</button>
+        </div>
+        <div class="col-md-3"><strong *ngIf='search_stations.GetStationsResult.length > 0'>Nomre de stations : {{search_stations.GetStationsResult.length}} <br></strong></div>
+      </div>
+  </form>
+</header>
+
+<main><div id="map" class="map"></div></main>

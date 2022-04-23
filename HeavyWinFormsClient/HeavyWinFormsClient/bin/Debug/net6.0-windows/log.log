@@ -1,0 +1,17 @@
+System.TimeoutException: The request channel timed out attempting to send after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+ ---> System.TimeoutException: The HTTP request to 'http://localhost:8733/Design_Time_Addresses/RoutingWithBikesHost/RoutingService/' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout.
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpClientRequestChannel.HttpClientChannelAsyncRequest.SendRequestAsync(Message message, TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Channels.RequestChannel.RequestAsync(Message message, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at System.ServiceModel.Channels.RequestChannel.RequestAsync(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.RequestAsyncInternal(Message message, TimeSpan timeout)
+   at System.Runtime.TaskHelpers.WaitForCompletionNoSpin[TResult](Task`1 task)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(MethodCall methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(MethodInfo targetMethod, Object[] args)
+   at generatedProxy_1.GetStatistiques()
+   at Reference.RoutingServiceClient.GetStatistiques() in D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\HeavyWinFormsClient\HeavyWinFormsClient\Connected Services\Reference\Reference.cs:line 804
+   at HeavyWinFormsClient.StatistiqueForm.StatistiqueForm_Load(Object sender, EventArgs e) in D:\COURS NICE\annee 4\S8\SOC\TD\lets_go_biking\HeavyWinFormsClient\HeavyWinFormsClient\StatistiqueForm.cs:line 33

@@ -36,12 +36,12 @@ namespace RoutingWithBikesHost
         /// <param name="depart"></param>
         /// <param name="arrivee"></param>
         /// <returns></returns>
-        private async Task<OpenRouteService> GetDirections(List<double> depart, List<double> arrivee)
+        private async Task<OpenRouteService> GetDirections(List<double> depart, List<double> arrivee, string directionType)
         {
             //CultureInfo.InvariantCulture pour eviter que le float a un , a la place de . exp : 10.6 au lieu de 10,6
             string start = depart[0].ToString(CultureInfo.InvariantCulture) + "," + depart[1].ToString(CultureInfo.InvariantCulture);
             string end = arrivee[0].ToString(CultureInfo.InvariantCulture) + "," + arrivee[1].ToString(CultureInfo.InvariantCulture);
-            string url = OpenServiceURL + "/directions/cycling-road?api_key=" + token + "&start=" + start + "&end=" + end;
+            string url = OpenServiceURL + "/directions/"+directionType+"?api_key=" + token + "&start=" + start + "&end=" + end;
             try
             {
                 var u = new Uri(url);
@@ -162,33 +162,48 @@ namespace RoutingWithBikesHost
 
                 //trouver les stations de depart et d'arrivee
                 WebProxy.DynamicStation station_depart = await this.GetStartStationWithDisponibleBikes(depart_coords, villeDepart);
-                WebProxy.DynamicStation station_arrivee = await this.GetEndStationWithDisponibleStands(arrivee_coords, villeArrivee);
-
-                //ajout de statistique
-                Statistique s1 = new Statistique(villeDepart, station_depart.name, Usage.DEPART);
-                Statistique s2 = new Statistique(villeArrivee, station_arrivee.name, Usage.ARRIVEE);
-                this.AddStatistique(s1);
-                this.AddStatistique(s2);
 
                 // OpenService position = [lng, lat]
                 List<double> sD_coords = new List<double> { station_depart.position.longitude, station_depart.position.latitude };
-                List<double> sA_coords = new List<double> { station_arrivee.position.longitude, station_arrivee.position.latitude };
 
-                //itineraire entre depart et stationDepart
-                OpenRouteService oprD_sD = await GetDirections(depart_coords, sD_coords);
-
-                //itineraire entre stationdepart et stationArrivee
-                OpenRouteService oprsD_sA = await GetDirections(sD_coords, sA_coords);
-
-                //itineraire entre stationArrivee et arrivee
-                OpenRouteService oprsA_A = await GetDirections(sA_coords, arrivee_coords);
 
                 Itineraire route = new Itineraire();
-                route.depart_stationDepart = oprD_sD;
-                route.stationDepart_stationArrivee = oprsD_sA;
-                route.stationArrivee_arrivee = oprsA_A;
-                route.stationDepart = station_depart.name;
-                route.stationArrivee = station_arrivee.name;
+
+                //itineraire entre depart et stationDepart
+                OpenRouteService oprD_sD = await GetDirections(depart_coords, sD_coords, "foot-walking");
+
+                //itiniraire entre depart et arrivee
+                OpenRouteService oprD_A = await GetDirections(depart_coords, arrivee_coords, "foot-walking");
+
+                if (oprD_sD.features[0].properties.summary.duration > oprD_A.features[0].properties.summary.duration)
+                {
+                    route.depart_arrivee = oprD_A;
+
+                }
+                else
+                {
+                    WebProxy.DynamicStation station_arrivee = await this.GetEndStationWithDisponibleStands(arrivee_coords, villeArrivee);
+                    List<double> sA_coords = new List<double> { station_arrivee.position.longitude, station_arrivee.position.latitude };
+
+                    //itineraire entre stationdepart et stationArrivee
+                    OpenRouteService oprsD_sA = await GetDirections(sD_coords, sA_coords, "cycling-road");
+
+                    //itineraire entre stationArrivee et arrivee
+                    OpenRouteService oprsA_A = await GetDirections(sA_coords, arrivee_coords, "foot-walking");
+
+                    route.depart_stationDepart = oprD_sD;
+                    route.stationDepart_stationArrivee = oprsD_sA;
+                    route.stationArrivee_arrivee = oprsA_A;
+                    route.stationDepart = station_depart.name;
+                    route.stationArrivee = station_arrivee.name;
+
+                    //ajout de statistique
+                    Statistique s1 = new Statistique(villeDepart, station_depart.name, Usage.DEPART);
+                    Statistique s2 = new Statistique(villeArrivee, station_arrivee.name, Usage.ARRIVEE);
+                    this.AddStatistique(s1);
+                    this.AddStatistique(s2);
+                }
+
                 return route;
 
             }

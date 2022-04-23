@@ -4,12 +4,12 @@
     <hr>
     <div class="title">
       <div style="display: flex;flex-direction: row;" >
-        <i style="margin-top:10px;margin-left: 5px;" class="fa-solid fa-d"></i>
+        <i style="margin-top:10px;margin-left: 5px; color: blue;" class="fa-solid fa-d"></i>
         <input class="form-control" [value]="depart" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
       </div>
       <hr style="margin-right: 40px; margin-left:45px"/>
       <div style="display: flex;flex-direction: row;">
-        <i style="margin-top:10px;margin-left: 5px;" class="fa-solid fa-a"></i><input class="form-control" [value]="arrivee" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
+        <i style="margin-top:10px;margin-left: 5px; color: red;" class="fa-solid fa-a"></i><input class="form-control" [value]="arrivee" style="margin-left: 5px;" type="text" [style.width.px]=280 readonly />
       </div>
     </div>
     <hr>
@@ -27,8 +27,8 @@
           <span>{{step.duration}}s - {{step.distance}}m</span>
         </div>
      </div>
+        <hr>
     </div>
-    <hr>
     <div *ngIf="sd_sa_steps!=null" >
       <div class="center">Station de départ <i class="fa-solid fa-person-biking" style="color: red"></i> Station d'arrivée</div>
       <strong style="margin-left: 70px;" *ngIf="stationDepart_stationArrivee!=null">Distance : {{stationDepart_stationArrivee.features[0].properties.segments[0].distance}} m</strong>
@@ -43,8 +43,8 @@
           <span>{{step.duration}}s - {{step.distance}}m</span>
         </div>
      </div>
+      <hr>
     </div>
-    <hr>
     <div *ngIf="sa_a_steps!=null">
       <div class="center">Station d'arrivée <i class="fa-solid fa-person-walking" style="color: blue"></i> Arrivée</div>
       <strong style="margin-left: 70px;" *ngIf="stationArrivee_arrivee!=null">Distance : {{stationArrivee_arrivee.features[0].properties.segments[0].distance}} m</strong>
@@ -59,6 +59,23 @@
           <span>{{step.duration}}s - {{step.distance}}m</span>
         </div>
      </div>
+    </div>
+    <div *ngIf="d_a_steps!=null">
+      <strong style="margin-left: 70px;" *ngIf="depart_arrivee!=null">Distance :
+        {{depart_arrivee.features[0].properties.segments[0].distance}} m</strong>
+      <div>
+        <div *ngFor="let step of d_a_steps;let i=index" class="center">
+          <hr>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('left')" class="fa-solid fa-arrow-left"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('right')" class="fa-solid fa-arrow-right"></i>
+          <i style="padding-right: 2px;" *ngIf="step.instruction.includes('Continue')"
+            class="fa-solid fa-arrow-up-long"></i>
+          <span>{{step.instruction}}</span><br>
+          <strong *ngIf='step.name!="-"'>{{step.name}} <br></strong>
+          <span>{{step.duration}}s - {{step.distance}}m</span>
+        </div>
+      </div>
+      <hr>
     </div>
   </div>
   <div id="map" class="map"></div>

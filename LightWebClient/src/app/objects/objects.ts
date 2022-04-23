@@ -70,6 +70,7 @@ import { LatLngExpression } from 'leaflet';
       depart_stationDepart: OpenRouteService;
       stationDepart_stationArrivee: OpenRouteService;
       stationArrivee_arrivee: OpenRouteService;
+      depart_arrivee: OpenRouteService;
       stationDepart: string;
       stationArrivee: string;
     }

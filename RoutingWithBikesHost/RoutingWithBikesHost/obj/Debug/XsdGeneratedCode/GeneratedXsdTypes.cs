@@ -14,7 +14,7 @@ namespace RoutingWithBikesHost.ContractTypes
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -41,7 +41,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -147,7 +147,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -220,7 +220,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -374,7 +374,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -432,7 +432,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -629,7 +629,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -656,7 +656,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -732,7 +732,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -743,7 +743,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -771,7 +771,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -829,7 +829,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -856,7 +856,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -867,7 +867,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -895,7 +895,7 @@ namespace RoutingWithBikesHost.ContractTypes
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("MSBuild", "17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]

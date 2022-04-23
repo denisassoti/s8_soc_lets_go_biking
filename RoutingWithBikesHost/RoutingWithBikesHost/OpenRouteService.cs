@@ -87,6 +87,7 @@ namespace RoutingWithBikesHost.OpenRouteServiceAPI
         public OpenRouteService depart_stationDepart { get; set; }
         public OpenRouteService stationDepart_stationArrivee { get; set; }
         public OpenRouteService stationArrivee_arrivee { get; set; }
+        public OpenRouteService depart_arrivee { get; set; }
         public string stationDepart { get; set; }
         public string stationArrivee { get; set; }
 

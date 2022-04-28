@@ -5,7 +5,22 @@
       "ProjectGuid": "d645ae42-9c30-46c0-a25a-acd1a7c1d48a",
       "DisplayName": "LetsGoBiking",
       "ColorIndex": 0
+    },
+    "73d1c835-6624-426b-b58d-08b6d9d311df": {
+      "ProjectGuid": "73d1c835-6624-426b-b58d-08b6d9d311df",
+      "DisplayName": "HeavyWinFormsClient",
+      "ColorIndex": 1
+    },
+    "0b7dc659-e9e1-4318-a2c6-0210d01c412b": {
+      "ProjectGuid": "0b7dc659-e9e1-4318-a2c6-0210d01c412b",
+      "DisplayName": "RoutingWithBikesHost",
+      "ColorIndex": 2
+    },
+    "bf44df68-fe49-4104-8616-c7d6e95b406f": {
+      "ProjectGuid": "bf44df68-fe49-4104-8616-c7d6e95b406f",
+      "DisplayName": "WebProxyService",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

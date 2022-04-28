@@ -55,6 +55,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,9 +68,9 @@
             this.distanceHeader});
             this.departStDpListView.FullRowSelect = true;
             this.departStDpListView.GridLines = true;
-            this.departStDpListView.Location = new System.Drawing.Point(2, 98);
+            this.departStDpListView.Location = new System.Drawing.Point(0, 121);
             this.departStDpListView.Name = "departStDpListView";
-            this.departStDpListView.Size = new System.Drawing.Size(953, 440);
+            this.departStDpListView.Size = new System.Drawing.Size(953, 448);
             this.departStDpListView.TabIndex = 0;
             this.departStDpListView.UseCompatibleStateImageBehavior = false;
             this.departStDpListView.View = System.Windows.Forms.View.Details;
@@ -198,7 +199,7 @@
             this.columnHeader4});
             this.saArriveeListView.FullRowSelect = true;
             this.saArriveeListView.GridLines = true;
-            this.saArriveeListView.Location = new System.Drawing.Point(1, 603);
+            this.saArriveeListView.Location = new System.Drawing.Point(0, 613);
             this.saArriveeListView.Name = "saArriveeListView";
             this.saArriveeListView.Size = new System.Drawing.Size(953, 440);
             this.saArriveeListView.TabIndex = 2;
@@ -234,9 +235,9 @@
             this.columnHeader8});
             this.sdSaListView.FullRowSelect = true;
             this.sdSaListView.GridLines = true;
-            this.sdSaListView.Location = new System.Drawing.Point(961, 98);
+            this.sdSaListView.Location = new System.Drawing.Point(959, 121);
             this.sdSaListView.Name = "sdSaListView";
-            this.sdSaListView.Size = new System.Drawing.Size(953, 440);
+            this.sdSaListView.Size = new System.Drawing.Size(953, 448);
             this.sdSaListView.TabIndex = 3;
             this.sdSaListView.UseCompatibleStateImageBehavior = false;
             this.sdSaListView.View = System.Windows.Forms.View.Details;
@@ -265,7 +266,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(294, 569);
+            this.label5.Location = new System.Drawing.Point(203, 579);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(313, 31);
             this.label5.TabIndex = 6;
@@ -275,7 +276,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(288, 64);
+            this.label6.Location = new System.Drawing.Point(286, 87);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(319, 31);
             this.label6.TabIndex = 7;
@@ -285,17 +286,29 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(1258, 64);
+            this.label7.Location = new System.Drawing.Point(1224, 85);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(422, 31);
             this.label7.TabIndex = 8;
             this.label7.Text = "Station de départ 🚴 Station d\'arrivée";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(848, 62);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(197, 31);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Liste du parcours";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // ItineraireForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -343,5 +356,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
+        private Label label8;
     }
 }

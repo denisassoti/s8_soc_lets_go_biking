@@ -1,3 +1,23 @@
+Villes de test
+
+Test avec des stations
+12 Bd Fernand Bonnefoy 13010 Marseille
+317 Bd du Redon 13009 Marseille
+
+Test à pieds
+20 Avenue Crampel 31400 Toulouse
+73 Avenue Crampel 31400 Toulouse
+
+Test méme addresse
+
+Liste des stations d'une ville sur la carte (nancy)
+
+
+
+
+
+
+
 Rouen 
 23 Rue Louis Blanc 76100 Rouen
 14 Rue de l’Epine 76100 Rouen
@@ -8,6 +28,8 @@ Marseille
 1 Avenue de Rangueil 31400 Toulouse
 Rue des Gallois 31400 Toulouse
 
+
+Lyon
 Rue Ney 69006 Lyon
 Rue Bara 69003 Lyon
 
@@ -15,4 +37,3 @@ Rue Bara 69003 Lyon
 Av des Martyrs de la Resistance 76470 Le Tréport
 
 Avenue Leon Gambetta 76200 Dieppe
-

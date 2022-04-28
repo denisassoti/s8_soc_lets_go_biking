@@ -37,7 +37,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.chartControl1 = new Syncfusion.Windows.Forms.Chart.ChartControl();
-            this.chartControl2 = new Syncfusion.Windows.Forms.Chart.ChartControl();
             this.bannerTextProvider1 = new Syncfusion.Windows.Forms.BannerTextProvider(this.components);
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -96,7 +95,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Harlow Solid Italic", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(259, 9);
+            this.label3.Location = new System.Drawing.Point(12, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(619, 35);
             this.label3.TabIndex = 9;
@@ -107,7 +106,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(518, 44);
+            this.label1.Location = new System.Drawing.Point(272, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 25);
             this.label1.TabIndex = 13;
@@ -123,7 +122,7 @@
             // 
             this.chartControl1.Legend.Location = new System.Drawing.Point(323, 31);
             this.chartControl1.Localize = null;
-            this.chartControl1.Location = new System.Drawing.Point(642, 141);
+            this.chartControl1.Location = new System.Drawing.Point(43, 441);
             this.chartControl1.Name = "chartControl1";
             this.chartControl1.PrimaryXAxis.LogLabelsDisplayMode = Syncfusion.Windows.Forms.Chart.LogLabelsDisplayMode.Default;
             this.chartControl1.PrimaryXAxis.Margin = true;
@@ -137,36 +136,10 @@
             this.chartControl1.Title.Name = "Default";
             this.chartControl1.VisualTheme = "";
             // 
-            // chartControl2
-            // 
-            this.chartControl2.ChartArea.CursorLocation = new System.Drawing.Point(0, 0);
-            this.chartControl2.ChartArea.CursorReDraw = false;
-            this.chartControl2.IsWindowLess = false;
-            // 
-            // 
-            // 
-            this.chartControl2.Legend.Location = new System.Drawing.Point(379, 81);
-            this.chartControl2.Localize = null;
-            this.chartControl2.Location = new System.Drawing.Point(12, 399);
-            this.chartControl2.Name = "chartControl2";
-            this.chartControl2.PrimaryXAxis.LogLabelsDisplayMode = Syncfusion.Windows.Forms.Chart.LogLabelsDisplayMode.Default;
-            this.chartControl2.PrimaryXAxis.Margin = true;
-            this.chartControl2.PrimaryYAxis.LogLabelsDisplayMode = Syncfusion.Windows.Forms.Chart.LogLabelsDisplayMode.Default;
-            this.chartControl2.PrimaryYAxis.Margin = true;
-            this.chartControl2.Size = new System.Drawing.Size(500, 375);
-            this.chartControl2.TabIndex = 15;
-            this.chartControl2.Text = "chartControl2";
-            // 
-            // 
-            // 
-            this.chartControl2.Title.Name = "Default";
-            this.chartControl2.Titles.Add(this.chartControl2.Title);
-            this.chartControl2.VisualTheme = "";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(816, 106);
+            this.label2.Location = new System.Drawing.Point(217, 406);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 20);
             this.label2.TabIndex = 16;
@@ -176,9 +149,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1116, 803);
+            this.ClientSize = new System.Drawing.Size(635, 757);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.chartControl2);
             this.Controls.Add(this.chartControl1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -203,7 +175,6 @@
         private Label label3;
         private Label label1;
         private Syncfusion.Windows.Forms.Chart.ChartControl chartControl1;
-        private Syncfusion.Windows.Forms.Chart.ChartControl chartControl2;
         private Syncfusion.Windows.Forms.BannerTextProvider bannerTextProvider1;
         private Label label2;
     }

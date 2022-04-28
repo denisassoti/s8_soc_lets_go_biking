@@ -7,12 +7,18 @@ namespace HeavyWinFormsClient
         private Itineraire itineraire;
         private string depart;
         private string arrivee;
+        //private double distance1=0;
+        //private double distance2=0;
+        //private double distance3=0;
 
         public ItineraireForm(string depart, string arrivee, Itineraire itineraire)
         {
             this.itineraire = itineraire;
             this.depart = depart;
             this.arrivee = arrivee;
+            //this.distance1 = itineraire.stationDepart_stationArrivee.features[0].properties.segments[0].distance;
+            //this.distance2 = itineraire.stationDepart_stationArrivee.features[0].properties.segments[0].distance;
+            //this.distance3 = itineraire.stationArrivee_arrivee.features[0].properties.segments[0].distance;
 
             InitializeComponent();
         }
@@ -33,6 +39,10 @@ namespace HeavyWinFormsClient
             this.arriveeTxt.Text = arrivee;
             this.stationDepartTxt.Text = itineraire.stationDepart;
             this.stationArriveeTxt.Text = itineraire.stationArrivee;
+            //this.label9.Text = distance1.ToString() + " m";
+            //this.label10.Text = distance2.ToString() + " m";
+            //this.label11.Text = distance3.ToString() + " m";
+
 
             //this.departStDpListView.Items.Add(listItem);
             //this.departStDpListView.Items.Add(listItem2);
@@ -87,6 +97,11 @@ namespace HeavyWinFormsClient
         {
             //this.Close();
             new MapsForm(this.itineraire).ShowDialog();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

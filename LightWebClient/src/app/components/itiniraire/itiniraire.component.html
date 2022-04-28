@@ -1,5 +1,6 @@
 <main>
   <div class="left-bar">
+    <a routerLink="/" class="btn btn-outline-danger btn-sm">Accueil</a>
     <h5 class="left-bar-title">Liste du parcours</h5>
     <hr>
     <div class="title">
@@ -61,7 +62,8 @@
      </div>
     </div>
     <div *ngIf="d_a_steps!=null">
-      <strong style="margin-left: 70px;" *ngIf="depart_arrivee!=null">Distance :
+      <strong style="margin-left: 50px;background-color:red;color:white;font-weight:bold">Le meilleur trajet est a pied</strong><br>
+      <strong style="margin-left: 80px;" *ngIf="depart_arrivee!=null">Distance :
         {{depart_arrivee.features[0].properties.segments[0].distance}} m</strong>
       <div>
         <div *ngFor="let step of d_a_steps;let i=index" class="center">

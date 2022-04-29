@@ -2,7 +2,7 @@
 
 ## PROCEDURE DE PRISE EN MAIN DES DIFFERENTES PARTIES DU PROJET
 
-Vous pourrai lancer le WebProxyService et le RoutingService dans visual studio en ouvrant la solution LetsGoBiking.sln se trouvant dans le repertoire LetsGoBiking\ ou lancer ces projets individuellement en executant leur fichier .exe.
+Vous pourrai lancer le WebProxyService, le RoutingService et le HeavyWinFormsClient dans visual studio en ouvrant la solution LetsGoBiking.sln se trouvant dans le repertoire LetsGoBiking\ ou lancer ces projets individuellement en executant leur fichier .exe.
 
 ### WebProxyService
 

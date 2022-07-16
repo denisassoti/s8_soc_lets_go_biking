@@ -39,3 +39,9 @@ NB : Pour lancer le serveur routing, il faut lancer le serveur web proxy avant.
     ```
     Executez ` HeavyWinFormsClient.exe ` se trouvant dans le dossier HeavyWinFormsClient\HeavyWinFormsClient\bin\Debug\net6.0-windows\
     ```
+    
+ ### Some screenshots
+ 
+ ![image1](https://user-images.githubusercontent.com/58354924/179329199-6fb792fc-6b88-43fa-8744-b21700d82bc6.png)
+![image2](https://user-images.githubusercontent.com/58354924/179329204-7f408953-d347-4b59-b66f-59daa09c40a1.png)
+
